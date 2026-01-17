@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import joblib
 
-df = pd.read_csv("Boston.csv")
+df = pd.read_csv("C:\\Users\\bhosa\\MACHINE_LEARNING\\House-Price-Prediction-Using-ML\\Boston.csv")
 
 df = df.rename(columns={"medv": "price"})
 
